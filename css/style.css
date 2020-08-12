@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: #fff;
+	font-family: 'Flamenco', cursive;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+.main-nav{
+	float: right;
+	margin-top: 60px;
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+
+.main-nav li a{
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: 100;
+	font-family: 'Flamenco', cursive;
+}
+
+.main-nav li a:hover{
+	background-color: skyblue;
+}
+
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1{
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 5px;
+	margin-bottom: 20px;
+	font-weight: lighter;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2;
+	margin-top: 100px;
+}
+
+.btn-full{
+	background-color: transparent;
+	color: orange;
+	margin-right: 15px;
+	border: 1px solid silver;
+}
+
+.btn-full:hover{
+	background-color: pink;
+}
+
+.btn-half{
+	background-color: transparent;
+	color: orange;
+	margin-right: 15px;
+	border: 1px solid silver;
+}
+
+.btn-half:hover{
+	background-color: pink;
+}
+
+footer{
+	margin-top: 450px;
+	margin-left: 400px;
+}

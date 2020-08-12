@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.logo3{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.logo4{
+	margin-top: 70px;
+}
+
+.main-nav{
+	float: right;
+	margin-top: 60px;
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+
+.main-nav li a{
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: 100;
+	font-family: 'Flamenco', cursive;
+	margin-right: 20px;
+}
+
+.main-nav li a:hover{
+	background-color: skyblue;
+}
+
+p{
+	margin-left: 100px;
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+h1{
+	margin-left: 50px;
+	margin-top: 30px;
+	font-family: 'Flamenco', cursive;
+	color: yellow;
+}
+
+.coffee{
+	margin-left: 40px;
+}
+
+.cake{
+	margin-left: 45px;
+	padding: 5px;
+}
+
+.cupcake{
+	margin-left: 40px;
+	margin-bottom: 15px;
+}
+
+.coffee2{
+	margin-left: 40px;
+}
+
+.coffee{
+	margin-top: 20px;
+}
+
+.love2{
+	margin-left: 60px;
+	margin-bottom: 70px;
+}
+
+.lemon{
+	margin-left: 60px;
+	margin-bottom: 20px;
+	width: 15%;
+}
+
+.funny{
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.text h1{
+	color: white;
+	margin-left: 245px;
+}
+
+footer{
+	margin-top: 35px;
+	margin-left: 260px;
+}
